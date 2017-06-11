@@ -17,4 +17,4 @@ before_install:
 - cp .travis/ssh_config ~/.ssh/config
 after_script:
 
-- scp -o StrictHostKeyChecking=no app.js root@106.14.207.244:/root
+- scp -o StrictHostKeyChecking=no app.js root@106.14.207.244:/root/test
